@@ -1,0 +1,6 @@
+.bmseg_2301
+draft*
+__pycache__
+.coverage
+.mypy_cache
+.pytest_cache

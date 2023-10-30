@@ -1,0 +1,20 @@
+[tool.mypy]
+python_version = 3.8
+disallow_untyped_defs = true
+ignore_missing_imports = true
+
+[tool.pylint.main]
+# init-hook = 'import sys; sys.path.append("/src")'
+# recursive = true
+
+[tool.pylint."messages control"]
+disable = ["import-error", "C0116", "C0114", "C0115"]
+
+[tool.pytest.ini_options]
+pythonpath = [
+  ".", "src",
+]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "serial",
+]

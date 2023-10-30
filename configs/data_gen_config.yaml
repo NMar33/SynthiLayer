@@ -1,0 +1,16 @@
+logging_config_path: "configs/data_gen_logging_config.yaml" # logging_config_path or "default"
+
+random_state: -1 # if you don't want to specify a random seed, put -1 in this field
+ds_size: 100
+output_img_path: "draft_img"
+output_mask_path: "draft_mask"
+sub_datasets_size: 
+  # - 1
+  - 0.1
+  - 0.2
+  - 0.2
+sub_datasets_config_path:
+  # - "configs/ds_type_1_config.yaml"
+  - "configs/sub_ds_1_config.yaml"
+  - "configs/sub_ds_2_config.yaml"
+  - "configs/sub_ds_3_config.yaml"
