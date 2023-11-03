@@ -54,8 +54,6 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-Let's make the README more streamlined and cohesive:
-
 ## How to Use
 
 1. Activate your virtual environment (if it's not already active).
