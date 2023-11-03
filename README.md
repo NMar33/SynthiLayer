@@ -1,7 +1,7 @@
-# SynthiLayer
-## Synthetic Dataset Generator for Layered Structures
+## SynthiLayer
+## [Synthetic Dataset Generator for Layered Structures]
 
-Hello :smiley:, thank you for being here! SynthiLayer is a program designed to generate images that mimic layered structures. Additionally, it produces masks to highlight recurring patterns. 
+SynthiLayer is a program designed to generate images that mimic layered structures. Additionally, it produces masks to highlight recurring patterns. 
 
 Synthetic datasets produced by SynthiLayer are suitable for pre-training different segmentation models. They may prove beneficial when there's a need to segment photographs or micrographs of the following layered objects:
 
